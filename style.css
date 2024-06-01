@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.header {
+    background: linear-gradient(to right, #1EB7EB, #47C5EB);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.header span {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+.content {
+    flex-grow: 1;
+    background: white;
+    position: relative;
+}
+.sidebar-right {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: linear-gradient(to bottom, #1EB7EB, #47C5EB);
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    height: 90%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.sidebar-right img, .sidebar-right .icon {
+    width: 50px;
+    height: 50px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.opcoes-baixas {
+    background: #1EB7EB;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.opcoes-baixas img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.user-main {
+    align-items: right;
+    top: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: end;
+    clip-path: polygon(0 0, 100% 0, 85% 100%, 100 0%);
+}
+
+.user1 {
+    width: 50px;
+    height: 50px;
+}
+
+.click {
+    width: 60px;
+    align-items: right;
+    margin-top: 0;
+    height: 70px;
+
+}
+
+.click img {
+    width: 80px;
+}
